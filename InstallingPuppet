@@ -1,0 +1,4 @@
+wget https://apt.puppet.com/puppet7-release-focal.deb
+dpkg -i puppet7-release-focal.deb
+apt-get update
+apt install -y openjdk-8-jre-headless puppetserver  puppet-agent
